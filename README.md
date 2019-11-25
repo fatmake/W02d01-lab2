@@ -9,7 +9,11 @@ Remember:
 ## Calculate the Cube
 Write a function `calculateCube` that takes a single number and prints the volume of a cube made from that number.
 
-```javascript
+```js
+function calculateCube(num){
+    num = num * num * num;
+
+}
 console.log(calculateCube(5));
 ```
 
